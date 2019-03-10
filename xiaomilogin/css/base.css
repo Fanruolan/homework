@@ -1,0 +1,231 @@
+*{margin: 0;padding: 0;}
+body{
+    position: relative;
+}
+.wrap{
+    width:100%;
+    height: 558px;
+    background-image:url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg);
+    position: absolute;
+    top: -30px;
+    left:0;
+    background-repeat:no-repeat;
+    background-position: top center;
+    
+}
+.wrap{
+    position: relative;
+    /* overflow: hidden; */
+}
+.head{
+    width: 1130px;
+    height: 98px;
+    margin: 0 auto;
+}
+.logo{
+    width: 200px;
+    height: 98px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+}
+body{
+    background-size: cover;
+    font-family: Helvetica;
+    color:#999;
+}
+.login{
+    height: 80px;
+    font-size: 24px;
+    position: absolute;
+    right: -909px; 
+    top:30px;
+}
+.form{
+    position: absolute;
+    right: 210px;
+    margin-bottom: 30px;
+    overflow:hidden;
+}
+.form,.login{
+    width:400px;
+    text-align: center;
+    background:#fff;
+}
+.login,.container{
+    margin-top: 30px;
+}
+input{
+    width:336px;
+    padding:8px;
+    outline: none;
+    height:30px;
+    border:1px solid #e0e0e0;
+}
+.login{
+    font-size: 24px;
+    margin-top:30px;
+    /* margin-bottom: 30px; */
+    position: relative;
+}
+.login span{
+    color:#333;
+    position: absolute;
+    bottom: 20px;
+
+}
+.login span.active{
+    color:#f56600;
+}
+.active{
+    position: absolute;
+    left: 50px;
+}
+.action{
+    color:#f56600;
+}
+.saoma{
+    position: absolute;
+    right: 50px;
+}
+.saoma,.active:hover{
+    cursor: pointer;
+}
+.phone{
+    margin-bottom: 15px;
+}
+.password{margin-bottom: 20px;}
+.submit input{
+    width:352px;
+    height:50px;
+    background:#f56600;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.register{
+    overflow: hidden;
+}
+.register-left{
+    margin-bottom: 130px;
+    font-size: 14px;
+    float: left;
+}
+.register-left a{
+    color: #f56600;
+    text-decoration:none;
+    margin-left: 20px;
+}
+.register-right{
+    margin-bottom: 130px;
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+}
+.register-right a{
+    color: #999;
+    text-decoration:none; 
+}
+.register-right a:hover{
+    color: #f56600;
+}
+.footer{
+    width:352px;
+    /* margin-top: 135px; */
+    margin-left:auto;
+    margin-right:auto;
+}
+.footer>.dividing{
+    display: block;
+    height: 40px;
+    position:relative;
+    text-align: center;
+}
+.dividing .left,.right{
+    position:absolute;
+    display: block;
+    width:120px;
+    height:1px;
+    background:#999;
+    top:50%
+}
+ .dividing>.words{
+    font-size: 14px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -38px; 
+} 
+.right{right:0}
+.AllIcon{
+    margin-left: -35px;
+    margin-bottom: 24px;}
+.AllIcon span{
+    display: inline-block;
+    position:absolute;
+    margin:auto;
+    width:18px;
+    height:18px;
+    left:0;right:0;bottom:0;top:0;
+    background:url(../images/icons_type.png);
+}
+.AllIcon a{
+    position: relative;
+    display: inline-block;
+    width:30px;
+    height:30px;
+    margin-left: 29px;
+    border-radius: 50%;
+}
+.AllIcon>.first{background: #0288d1;}
+.AllIcon>.second{background: #d32f2f;}
+.AllIcon>.third{background: #00aaee;}
+.AllIcon>.forth{background: #00d20d;}
+.AllIcon .QQ{background-position: -19px 0}
+.AllIcon .weibo{background-position: -38px 0}
+.AllIcon .zhifubao{
+    width: 26px;
+    background-position: -57px 0}
+.AllIcon .weixin{background-position: -83px 0;width:24px;}
+.saomao{
+    width: 400px;
+    height: 460px;
+    background: #fff;
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    right: 210px;
+    
+}
+.none{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+.app{
+    margin-top: 10px;
+}
+.app span{
+    color: orangered;
+}
+.active{
+    color:orangered;
+    
+}
+.foot{
+    width: 650px;
+    position: absolute;
+    bottom: -180px;right:470px;
+    text-align: center;
+    font-size: 14px;
+    color: #999 ;
+}
+.foot a{
+    text-decoration: none;
+    color: #999 ;
+}
+.foot{
+    margin-bottom: 20px;
+}
+.slide>span:hover{
+    cursor: pointer;
+    color: #333 !important;
+}
