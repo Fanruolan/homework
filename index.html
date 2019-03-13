@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="../小米商城/images/logo.jpg" rel="shortcut icon" type="image/x-icon">
+    <title>诗意生活</title>
     <style>
         *{margin:0;padding: 0}
+        .container{
+            overflow: hidden;
+            position: relative;
+        }
         .title{
             color:white;
             background-color: pink;
@@ -51,28 +56,53 @@
             color:rgb(252, 115, 137);
             cursor:pointer;
         }
+        .job{
+            position: absolute;
+            list-style: none;
+            top: 300px;left: 100px;
+            color: #999;
+            float: left;
+            width: 150px;
+            height: 500px;
+            font-size: 16px;
+        }
+        .job>li{
+            line-height: 40px;
+            border: 1px solid #999;
+            text-align: center;
+        }
+        .job a{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h3 class="title">诗意生活</h3>
-    <div class="content">
-        <h4 class="peom">除了生活还有诗和远方</h4>
-        <img class="img" src="images/下载.jpg" alt="">
-        <p class="life">人生至少有两次冲动，一次为了奋不顾身的爱情，一次为了说走就走的旅行。终于发现，我所拥有的，竟是如此繁华。一个人，才不会孤单。人生最好的旅行，就是你在一个陌生的地方，发现一种久违的感动。有一种旅行，不为跋涉千里的向往，只为漫无目的的闲逛，不为人 山人海的名胜，只为怡然自乐的街景。</p>
-        <h4 class="about">关于旅行:</h4>
-        <ul>
-            <li>因为有梦，所以勇敢出发，选择出发，便只顾风雨兼程。</li>
-            <li>如果你不出去走走，你就会以为这就是世界。</li>
-            <li>当你下定决心准备出发时，最困难的时刻就已经过去了。那么，出发吧。</li>
-        </ul>
-        <p class="people">尼采说:</p>
-        <p class="becease">对待生命你不妨大胆点，因为它终将离你远去</p>
-        <a href="day01.html">个人网页</a>
-        <a href="day02.html">关于远大</a>
-        <a href="day02pm.html">生活家</a>
-        <a href="home+/home+.html">home+</a>
-        <a href="xiaomilogin/小米登录.html">小米登录</a>
-        <a href="home+.badding/家具医生.html">家居医生</a>
+    <div class="container">
+        <h3 class="title">诗意生活</h3>
+        <div class="content">
+            <h4 class="peom">除了生活还有诗和远方</h4>
+            <img class="img" src="images/下载.jpg" alt="">
+            <p class="life">人生至少有两次冲动，一次为了奋不顾身的爱情，一次为了说走就走的旅行。终于发现，我所拥有的，竟是如此繁华。一个人，才不会孤单。人生最好的旅行，就是你在一个陌生的地方，发现一种久违的感动。有一种旅行，不为跋涉千里的向往，只为漫无目的的闲逛，不为人 山人海的名胜，只为怡然自乐的街景。</p>
+            <h4 class="about">关于旅行:</h4>
+            <ul>
+                <li>因为有梦，所以勇敢出发，选择出发，便只顾风雨兼程。</li>
+                <li>如果你不出去走走，你就会以为这就是世界。</li>
+                <li>当你下定决心准备出发时，最困难的时刻就已经过去了。那么，出发吧。</li>
+            </ul>
+            <p class="people">尼采说:</p>
+            <p class="becease">对待生命你不妨大胆点，因为它终将离你远去</p>
+        </div>
+        <div>
+            <ul class="job">
+                <li><a href="day01.html">个人网页</a></li>
+                <li><a href="day02.html">关于远大</a></li>
+                <li><a href="day02pm.html">生活家</a></li>
+                <li><a href="home+/home+.html">home+</a></li>
+                <li><a href="xiaomilogin/小米登录.html">小米登录</a></li>
+                <li><a href="home+.badding/家具医生.html">家居医生</a></li>
+                <li><a href="小米商城/小米商城.html">小米商城</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
